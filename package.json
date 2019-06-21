@@ -1,0 +1,17 @@
+{
+  "name": "vue-lint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard --plugin vue main.vue",
+    "test2": "standard --plugin vue --parser babel-eslint main.vue"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-eslint": "^10.0.2",
+    "eslint-plugin-vue": "^5.2.2",
+    "standard": "^12.0.1"
+  }
+}
